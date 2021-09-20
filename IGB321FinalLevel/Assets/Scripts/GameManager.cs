@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour {
     string thisLevel;
     public string nextLevel;
 
+    public int keys;
 
     // Awake Checks - Singleton setup
     void Awake() {
