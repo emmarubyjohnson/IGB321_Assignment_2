@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Emma.unity
+- path: Assets/Scenes/Puzzle1_Tile.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
