@@ -44,9 +44,13 @@ public class GameManager : MonoBehaviour {
 
     public IEnumerator LoadLevel(string level) {
 
-        yield return new WaitForSeconds(5);
+        Debug.Log("1");
+        
 
         SceneManager.LoadScene(level);
+
+        yield return new WaitForSeconds(5);
+
     }
 
 
