@@ -17,43 +17,35 @@ public class PushBox : MonoBehaviour
 
     void Update()
     {
-            
+
     }
 
-    private void OnTriggerStay(Collider other)
+    private void OnCollisionEnter(Collision other)
     {
-        if(other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player")
+        {            
+            if (Input.GetKey("s"))
+            {
+                rb.velocity = transform.forward * moveSpeed;
+            }
+            else if (Input.GetKey("w"))
+            {
+                rb.velocity = -transform.forward * moveSpeed;
+            }
+            if (Input.GetKey("d"))
+            {
+                rb.velocity = (Quaternion.Euler(0, -90, 0) * transform.forward) * moveSpeed;
+            }
+            else if (Input.GetKey("a"))
+            {
+                rb.velocity = (Quaternion.Euler(0, 90, 0) * transform.forward) * moveSpeed;
+            }
+        }
+        else
         {
-            Movement();
+            rb.velocity = new Vector3(0,0,0);
         }
     }
+}
 
-    void Movement()
-    {
 
-        boxPosition = transform.position;
-
-        //Forwards and Back
-        if (Input.GetKey("s"))
-        {
-            boxPosition.z = boxPosition.z + moveSpeed * Time.deltaTime;
-        }
-        else if (Input.GetKey("w"))
-        {
-            boxPosition.z = boxPosition.z - moveSpeed * Time.deltaTime;
-        }
-
-        //Strafing 
-        if (Input.GetKey("d"))
-        {
-            boxPosition.x = boxPosition.x - moveSpeed * Time.deltaTime;
-        }
-        else if (Input.GetKey("a"))
-        {
-            boxPosition.x = boxPosition.x + moveSpeed * Time.deltaTime;
-        }
-
-        transform.position = boxPosition;
-        rb.velocity = new Vector3(0, 0, 0);   //Freeze velocity
-    }
-    }
