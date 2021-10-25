@@ -9,9 +9,9 @@ EditorBuildSettings:
     path: Assets/Tile Setup.unity
     guid: 7928b1309a9cbbb4ab267d362bf54813
   - enabled: 1
-    path: Assets/Scenes/Level1_Tile.unity
+    path: Assets/Scenes/Tile1_Level1.unity
     guid: a05aedc595819ea4ea94c86c87534721
   - enabled: 1
-    path: Assets/Scenes/Puzzle1_Tile.unity
+    path: Assets/Scenes/Puzzle1_Tile_Level2.unity
     guid: 39f8a23bff1afb14fbb0b04b5dadd8f7
   m_configObjects: {}
