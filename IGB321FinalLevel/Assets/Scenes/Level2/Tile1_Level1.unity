@@ -1038,7 +1038,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39ba6e576ae71a84b9edbd02527e223f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: Puzzle1_Tile
+  level: Level2
   gameManager: {fileID: 601960185}
 --- !u!65 &2020217123
 BoxCollider:
