@@ -791,6 +791,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1629459454}
+    - target: {fileID: 3897395518480852373, guid: 458a48a8222fd8346af28007b6a7198c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8759ec410a6774b4ea13ae32dc2b8d2e, type: 2}
     - target: {fileID: 4210144206857782916, guid: 458a48a8222fd8346af28007b6a7198c,
         type: 3}
       propertyPath: m_Mesh
@@ -1000,6 +1005,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3666512183535099486, guid: fb94d20324d93234e8e22c4e06aa1976,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8759ec410a6774b4ea13ae32dc2b8d2e, type: 2}
     - target: {fileID: 4314937006589847508, guid: fb94d20324d93234e8e22c4e06aa1976,
         type: 3}
       propertyPath: m_Mesh
@@ -1108,6 +1118,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1893511170561535150, guid: 00dfd1476e5983944b826dd023c0aad1,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8759ec410a6774b4ea13ae32dc2b8d2e, type: 2}
     - target: {fileID: 4462892519524676949, guid: 00dfd1476e5983944b826dd023c0aad1,
         type: 3}
       propertyPath: m_Mesh
@@ -3729,7 +3744,7 @@ GameObject:
   - component: {fileID: 2090031669}
   m_Layer: 0
   m_Name: GameManager
-  m_TagString: GameController
+  m_TagString: GameManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
