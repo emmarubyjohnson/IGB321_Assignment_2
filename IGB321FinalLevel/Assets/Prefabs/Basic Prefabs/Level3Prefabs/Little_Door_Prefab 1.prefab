@@ -60,7 +60,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 828dd8ea20aa1464ba8eee639716770e, type: 2}
-  - {fileID: 2100000, guid: 614b549c961e90d459cbf4ac782f662b, type: 2}
+  - {fileID: 2100000, guid: 92dfcfe3f83de1545afe826e9035cfce, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -92,7 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7604074098154573332}
   m_Layer: 0
-  m_Name: Little_Door_Prefab
+  m_Name: Little_Door_Prefab 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

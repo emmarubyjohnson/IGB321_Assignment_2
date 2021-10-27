@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4965573458060606609}
   - component: {fileID: 4801246822051185150}
   m_Layer: 0
-  m_Name: corner
+  m_Name: corner 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -61,7 +61,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: eb406ebe056e48140863ca092a93ac29, type: 2}
-  - {fileID: 2100000, guid: 614b549c961e90d459cbf4ac782f662b, type: 2}
+  - {fileID: 2100000, guid: 92dfcfe3f83de1545afe826e9035cfce, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
