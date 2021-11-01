@@ -68,6 +68,7 @@
      <Compile Include="Assets\Scripts\Door.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\IgniteCoders\ParticlePack\TutorialInfo\Scripts\Readme.cs" />
+     <Compile Include="Assets\Box_Anim_Script.cs" />
      <Compile Include="Assets\Scripts\PushBox.cs" />
      <Compile Include="Assets\IgniteCoders\ParticlePack\Shared\Scripts\AdjustTimeScale.cs" />
      <Compile Include="Assets\Scripts\Pickup.cs" />
